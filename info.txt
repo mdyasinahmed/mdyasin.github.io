@@ -1,9 +1,0 @@
-color:
-#4E7FC6
-#040519
-linear-gradient(180deg, #4E7FC6 0%, #040519 100%);
-
-!important
-#0098DA
-#111111
-#444444
