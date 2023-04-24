@@ -1,0 +1,86 @@
+@media only screen and (max-width: 776px) {
+/** section-info **/
+.section-info h6 {
+    font-size: 10px !important;
+    font-weight: 700 !important;
+    letter-spacing: 2px !important;
+}
+.section-info h4 {
+    color: #041D38;
+	font-size: 28px !important;
+	font-weight: 700 !important;
+    letter-spacing: 2px !important;
+}
+.section-info h5 {
+	font-size: 12px !important;
+	font-weight: 500 !important;
+    letter-spacing: 2px !important;
+}
+/** main-header **/
+.main-header{
+	display: none !important;
+}
+/** home-info **/
+.home-info .in-hm h1{
+	font-size: 30px !important;
+}
+.home-info .in-hm h2{
+	font-size: 25px !important;
+}
+/** About **/
+.about-text h3{
+	font-size: 32px !important;
+}
+/** skills-section **/
+.skills-full{
+	width: 50px !important;
+}
+.skills-null{
+	width: 50px !important;
+}
+/** available-section **/
+.available-text h3{
+	font-size: 28px !important;
+	font-weight: 700 !important;
+}
+.available-text h2{
+	font-size: 28px !important;
+	font-weight: 700 !important;
+}
+/** testimonials-section **/
+.testimonials-body{
+	margin: 80px auto;
+	border: 10px solid #FFFFFF;
+	color: #FFFFFF;
+	position: relative;
+}
+.icon img{
+	height: 82px !important;
+	width: 82px !important;
+	padding: 20px !important;
+	background-color: #273039;
+}
+.left{
+	position: absolute;
+	top: -7% !important;
+	left: 0% !important;
+}
+.right{
+	position: absolute;
+	bottom: -7% !important;
+	right: 0% !important;
+}
+/** blog-section **/
+.blog-main-responsive{
+	display: block !important;
+}
+.blog-main-nonresponsive{
+	display: none !important;
+}
+/** footer-section **/
+.footer-content	h2{
+	font-size: 35px !important;
+	font-weight: 700 !important;
+}
+}
+
