@@ -280,14 +280,14 @@ a:focus {
 
 .hero .hero-text p {
     color: #ffffff;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 15px;
 }
 
 .hero .hero-text h1 {
     color: #ffffff;
-    font-size: 60px;
+    font-size: 4rem;
     font-weight: 700;
     letter-spacing: 3px;
     margin-bottom: 15px;
@@ -298,7 +298,7 @@ a:focus {
     margin: 0;
     height: 35px;
     color: #ffffff;
-    font-size: 35px;
+    font-size: 2rem;
     font-weight: 600;
 }
 
