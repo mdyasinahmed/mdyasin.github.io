@@ -231,6 +231,7 @@ a:focus {
     
     .navbar a.nav-link {
         padding: 5px;
+        margin: 10px 0px;
     }
     
     .navbar .dropdown-menu {
@@ -289,7 +290,6 @@ a:focus {
     color: #ffffff;
     font-size: 4rem;
     font-weight: 700;
-    letter-spacing: 3px;
     margin-bottom: 15px;
 }
 
@@ -349,7 +349,8 @@ a:focus {
     }
     
     .hero .hero-text h1 {
-        font-size: 45px;
+        font-size: 4rem;
+        font-weight: 700;
     }
     
     .hero .hero-text h2 {
