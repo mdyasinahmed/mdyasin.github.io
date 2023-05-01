@@ -374,7 +374,7 @@ a:focus {
     .hero .hero-text,
     .hero .hero-btn {
         width: 100%;
-        text-align: center;
+        text-align: left;
     }
     
     .hero .hero-text p {
@@ -992,7 +992,7 @@ a:focus {
     padding: 0;
 }
 
-.service-item {
+.price .service-item {
     padding: 40px 10px;
 	margin: 20px 10px;
 	box-shadow: 0px 5px 5px 0px #007bff; 
@@ -1006,34 +1006,34 @@ a:focus {
 					-5px -5px 18px #fcfdff;
 	transition: all 0.5s;
 }
-.service-item:hover{
+.price .service-item:hover{
 	border-bottom: 4px solid #414141;
 	-webkit-box-shadow: 0px 10px 15px 0px rgb(165 165 165);
 	-moz-box-shadow: 0px 10px 15px 0px rgb(165 165 165);
 	box-shadow: 0px 10px 15px 0px rgb(165 165 165);
 }
-.service-item:hover .icon{
+.price .service-item:hover .icon{
   transform: rotateY(360deg);
   -webkit-transform: rotateY(360deg);
   -moz-transform: rotateY(360deg);
   -ms-transform: rotateY(360deg);
   -o-transform: rotateY(360deg);
 }
-.service-item .icon{
+.price .service-item .icon{
 	display: inline-block;
 	margin: 20px;
 	padding: 20px;
 	transition: all 0.5s;
 }
-.service-item i{
+.price .service-item i{
 	font-size: 30px;
 	color: #007bff;
 }
-.service-item h3{
+.price .service-item h3{
 	font-size: 22px;
 	color: #414141;
 }
-.service-item p{
+.price .service-item p{
 	font-size: 15px;
 	color: #787878;
 	font-weight: 400;
