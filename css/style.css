@@ -272,11 +272,6 @@ a:focus {
 
 .hero .hero-content {
     position: relative;
-    padding-left: 75px;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    flex-direction: column;
 }
 
 .hero .hero-text p {
@@ -284,10 +279,12 @@ a:focus {
     font-size: 1.3rem;
     font-weight: 800;
 }
-
-.hero .hero-text h1 {
+.hero .hero-text .yasin{
     color: var(--primary);
-    font-size: 4rem;
+}
+.hero .hero-text h1 {
+    color: var(--info-text-color);
+    font-size: 4.5rem;
     font-weight: 700;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -316,23 +313,30 @@ a:focus {
     font-size: 1rem;
     font-weight: 400;
 }
-
-.hero .hero-btn .btn {
+.hero .hero-btn{
     margin-top: 20px;
-    color: var(--primary);
-    background: #ffffff;
-    box-shadow: inset 0 0 0 50px #ffffff;
+    padding: 10px 0px;
 }
-
-.hero .hero-btn .btn:hover {
+.resume-btn {
+    padding: 10px 20px;
+    color: #ffffff !important; 
+    background: var(--primary) !important;
+    border-radius: 25px !important;
+}
+.hero-social{
+    display: none;
+    position: absolute;
+    bottom: -20%;
+    left: -5%;
+    padding: 10px 20px;
+}
+.hero .hero-social .social-btn{
+    padding: 15px 20px;
+    font-size: .8rem;
+    margin: 0 5px !important;
+    background-color: var(--info-text-color);
     color: #ffffff;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #ffffff;
-    border-color: #ffffff;
-}
-
-.hero .hero-btn .btn:first-child {
-    margin-right: 10px;
+    border-radius: 50px;
 }
 
 @media (max-width: 991.98px) {
