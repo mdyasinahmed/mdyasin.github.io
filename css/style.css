@@ -992,105 +992,51 @@ a:focus {
     padding: 0;
 }
 
-.price .price-item {
-    position: relative;
-    margin-bottom: 30px;
-    background: #ffffff;
+.service-item {
+    padding: 40px 10px;
+	margin: 20px 10px;
+	box-shadow: 0px 5px 5px 0px #007bff; 
+	border-bottom: 4px solid #007bff;
+	background: #ffffff;
+	box-shadow:  5px 5px 18px #ebebed, 
+				-5px -5px 18px #ffffff;
+	-webkit-box-shadow: 5px 5px 18px #cecfd4, 
+						-5px -5px 18px #fcfdff;
+	-moz-box-shadow: 5px 5px 18px #f4f6ff, 
+					-5px -5px 18px #fcfdff;
+	transition: all 0.5s;
 }
-
-.price .featured-item {
-    box-shadow: 0 0 30px rgba(0, 0, 0, .2);
-    z-index: 1;
+.service-item:hover{
+	border-bottom: 4px solid #414141;
+	-webkit-box-shadow: 0px 10px 15px 0px rgb(165 165 165);
+	-moz-box-shadow: 0px 10px 15px 0px rgb(165 165 165);
+	box-shadow: 0px 10px 15px 0px rgb(165 165 165);
 }
-
-.price .price-header,
-.price .price-body,
-.price .price-footer {
-    position: relative;
-    text-align: center;
+.service-item:hover .icon{
+  transform: rotateY(360deg);
+  -webkit-transform: rotateY(360deg);
+  -moz-transform: rotateY(360deg);
+  -ms-transform: rotateY(360deg);
+  -o-transform: rotateY(360deg);
 }
-
-.price .price-header {
-    padding: 45px 0 30px 0;
-    color: #414141;
+.service-item .icon{
+	display: inline-block;
+	margin: 20px;
+	padding: 20px;
+	transition: all 0.5s;
 }
-
-.price .price-item.featured-item .price-header {
-    color: #007bff;
+.service-item i{
+	font-size: 30px;
+	color: #007bff;
 }
-
-.price .price-title h2 {
-    font-size: 25px;
-    font-weight: 400;
-    text-transform: uppercase;
+.service-item h3{
+	font-size: 22px;
+	color: #414141;
 }
-
-.price .price-prices h2 {
-    font-size: 45px;
-    font-weight: 700;
-    margin-left: 10px;
-}
-
-.price .price-prices h2 small {
-    position: absolute;
-    font-size: 18px;
-    font-weight: 400;
-    margin-top: 9px;
-    margin-left: -12px;
-}
-
-.price .price-prices h2 span {
-    margin-left: 1px;
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.price .price-item.featured-item h2 {
-    color: #007bff;
-}
-
-.price .price-body {
-    padding: 0 0 20px 0;
-}
-
-.price .price-description ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
-.price .price-description ul li {
-    padding: 0 0 20px 0;
-}
-
-.price .price-item .price-action {
-    padding-bottom: 45px;
-}
-
-.price .price-item .price-action .btn {
-    color: #ffffff;
-    background: #414141;
-    box-shadow: inset 0 0 0 50px #414141;
-}
-
-.price .price-item .price-action .btn:hover {
-    color: #414141;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #414141;
-    border-color: #414141;
-}
-
-.price .price-item.featured-item .price-action .btn {
-    color: #ffffff;
-    background: #007bff;
-    box-shadow: inset 0 0 0 50px #007bff;
-}
-
-.price .price-item.featured-item .price-action .btn:hover {
-    color: #007bff;
-    background: transparent;
-    box-shadow: inset 0 0 0 0 #007bff;
-    border-color: #007bff;
+.service-item p{
+	font-size: 15px;
+	color: #787878;
+	font-weight: 400;
 }
 /*******************************/
 /********* Contact CSS *********/
