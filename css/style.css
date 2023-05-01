@@ -1108,16 +1108,57 @@ a:focus {
     position: relative;
     margin-top: 45px;
     background: #007bff;
+    color: #ffffff;
 }
 
 .footer .container-fluid {
     padding: 60px 0 0 0;
 }
 
-.footer .footer-info {
-    position: relative;
+.footer .footer-menu {
     width: 100%;
+    text-align: left;
+}
+/* Footer Copyright */
+.footer .copyright {
+    position: relative;
     text-align: center;
+    margin-top: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.footer .copyright::before {
+    position: absolute;
+    content: "";
+    width: 50%;
+    height: 1px;
+    top: 0;
+    left: 25%;
+    background: rgba(256, 256, 256, .2);
+}
+
+.footer .copyright p {
+    margin: 0;
+    color: #ffffff;
+}
+.footer .copyright p a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: .8rem;
+}
+
+.footer .copyright p a:hover {
+    color: #414141;
+} 
+    /*
+
+.footer .footer-info p{
+    text-align: left;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 200;
+    color: #ffffff;
 }
 
 .footer .footer-info h2 {
@@ -1132,12 +1173,6 @@ a:focus {
     font-size: 22px;
     font-weight: 600;
     color: #ffffff;
-}
-
-.footer .footer-menu {
-    width: 100%;
-    display: flex;
-    justify-content: center;
 }
 
 .footer .footer-menu p {
@@ -1205,15 +1240,17 @@ a:focus {
 
 .footer .copyright p a {
     color: #ffffff;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: .8rem;
 }
 
 .footer .copyright p a:hover {
     color: #414141;
-}
+    transition-delay: .5s;
+} */
 
 @media (max-width: 575.98px) {
-    .footer .footer-info h2 {
+    /* .footer .footer-info h2 {
         margin-bottom: 20px;
         font-size: 20px;
         font-weight: 600;
@@ -1228,5 +1265,5 @@ a:focus {
         font-size: 16px;
         line-height: 16px;
         padding: 0 5px;
-    }
+    } */
 }
