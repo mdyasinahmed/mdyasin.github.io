@@ -905,22 +905,17 @@ a:focus {
 .price .service-item {
     padding: 40px 10px;
 	margin: 20px 10px;
-	box-shadow: 0px 5px 5px 0px #007bff; 
-	border-bottom: 4px solid #bfd4fb;
+	border-bottom: 4px solid #d5e4ff;
+    border-top: 1px solid #d5e4ff;
+    border-left: 1px solid #d5e4ff;
+    border-right: 1px solid #d5e4ff;
+    box-shadow: 0px 5px 5px 0px #ddedff;
 	background: #ffffff;
-	box-shadow:  5px 5px 18px #ebebed, 
-				-5px -5px 18px #ffffff;
-	-webkit-box-shadow: 5px 5px 18px #cecfd4, 
-						-5px -5px 18px #fcfdff;
-	-moz-box-shadow: 5px 5px 18px #f4f6ff, 
-					-5px -5px 18px #fcfdff;
 	transition: all 0.5s;
 }
 .price .service-item:hover{
 	border-bottom: 4px solid #007bff;
-	-webkit-box-shadow: 0px 10px 15px 0px rgb(165 165 165);
-	-moz-box-shadow: 0px 10px 15px 0px rgb(165 165 165);
-	box-shadow: 0px 10px 15px 0px rgb(165 165 165);
+	box-shadow: 0px 10px 15px 0px #badbff;
 }
 .price .service-item:hover .icon{
   transform: rotateY(360deg);
@@ -1044,6 +1039,7 @@ a:focus {
 .blog .blog-item {
     position: relative;
     margin-bottom: 30px;
+    border: 1px solid #cee6ff;
 }
 
 .blog .blog-img {
@@ -1064,9 +1060,6 @@ a:focus {
 .blog .blog-text {
     position: relative;
     padding: 30px;
-    border-right: 1px solid rgba(0, 0, 0, .07);
-    border-bottom: 1px solid rgba(0, 0, 0, .07);
-    border-left: 1px solid rgba(0, 0, 0, .07);
 }
 
 .blog .blog-text h2 {
