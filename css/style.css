@@ -7,6 +7,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+:root {
+    --primary: #111116;
+    --secondary: #ea80fc;
+    --on-primary: #fafafa;
+    --on-secondary: #000504;
+}
+
 h1,
 h2, 
 h3, 
@@ -24,7 +31,7 @@ a {
 a:hover,
 a:active,
 a:focus {
-    color: #007bff;
+    color: var(--primary);
     outline: none;
     text-decoration: none;
 }
@@ -44,20 +51,20 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     color: #ffffff;
-    background: #007bff;
+    background: var(--primary);
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #007bff;
+    box-shadow: inset 0 0 0 50px var(--primary);
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
 }
 
 .btn:hover {
-    color: #007bff;
+    color: var(--primary);
     background: transparent;
-    box-shadow: inset 0 0 0 0 #007bff;
-    border-color: #007bff;
+    box-shadow: inset 0 0 0 0 var(--primary);
+    border-color: var(--primary);
 }
 
 #loader {
@@ -91,7 +98,7 @@ a:focus {
     width: 45px;
     height: 45px;
     border: 5px solid #dddddd;
-    border-top: 5px solid #007bff;
+    border-top: 5px solid var(--primary);
     border-radius: 50%;
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
@@ -188,7 +195,7 @@ a:focus {
     }
     
     .navbar.nav-sticky .navbar-brand {
-        color: #007bff;
+        color: var(--primary);
     }
 
     .navbar-light .navbar-nav .nav-link,
@@ -211,7 +218,7 @@ a:focus {
     
     .navbar-light.nav-sticky .navbar-nav .nav-link:hover,
     .navbar-light.nav-sticky .navbar-nav .nav-link.active {
-        color: #007bff;
+        color: var(--primary);
     }
 }
 
@@ -222,7 +229,7 @@ a:focus {
     }
     
     .navbar .navbar-brand {
-        color: #007bff;
+        color: var(--primary);
     }
     
     .navbar .navbar-nav {
@@ -319,7 +326,7 @@ a:focus {
 
 .hero .hero-btn .btn {
     margin-top: 20px;
-    color: #007bff;
+    color: var(--primary);
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -445,7 +452,7 @@ a:focus {
     top: 11px;
     right: 0;
     left: -30px;
-    background: #007bff;
+    background: var(--primary);
     z-index: -1;
 }
 
@@ -456,7 +463,7 @@ a:focus {
     height: 3px;
     top: 11px;
     left: 3px;
-    background: #007bff;
+    background: var(--primary);
     z-index: 1;
 }
 
@@ -489,7 +496,7 @@ a:focus {
     content: '';
     position: absolute;
     width: 2px;
-    background: #007bff;
+    background: var(--primary);
     top: 0;
     bottom: 0;
     left: 50%;
@@ -521,7 +528,7 @@ a:focus {
     top: 48px;
     right: -8px;
     background: #ffffff;
-    border: 2px solid #007bff;
+    border: 2px solid var(--primary);
     border-radius: 16px;
     z-index: 1;
 }
@@ -553,7 +560,7 @@ a:focus {
     top: 44px;
     font-size: 16px;
     font-weight: 600;
-    color: #007bff;
+    color: var(--primary);
     text-transform: uppercase;
     letter-spacing: 1px;
     z-index: 1;
@@ -667,7 +674,7 @@ a:focus {
 }
 
 .service .service-item:hover {
-    box-shadow: inset 800px 0 0 0 #007bff;
+    box-shadow: inset 800px 0 0 0 var(--primary);
 }
 
 .service .service-icon {
@@ -677,14 +684,14 @@ a:focus {
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid #007bff;
+    border: 1px solid var(--primary);
     background: #ffffff;
 }
 
 .service .service-icon i {
     position: relative;
     font-size: 60px;
-    color: #007bff;
+    color: var(--primary);
     transition: .3s;
 }
 
@@ -752,10 +759,10 @@ a:focus {
     font-size: 14px;
     font-weight: 600;
     color: #ffffff;
-    background: #007bff;
+    background: var(--primary);
     border: 2px solid transparent;
     border-radius: 0;
-    box-shadow: inset 0 0 0 50px #007bff;
+    box-shadow: inset 0 0 0 50px var(--primary);
     transition: ease-out 0.3s;
     -webkit-transition: ease-out 0.3s;
     -moz-transition: ease-out 0.3s;
@@ -763,10 +770,10 @@ a:focus {
 
 .portfolio #portfolio-filter li:hover,
 .portfolio #portfolio-filter li.filter-active {
-    color: #007bff;
+    color: var(--primary);
     background: transparent;
-    box-shadow: inset 0 0 0 0 #007bff;
-    border-color: #007bff;
+    box-shadow: inset 0 0 0 0 var(--primary);
+    border-color: var(--primary);
 }
 
 .portfolio .portfolio-item {
@@ -828,10 +835,10 @@ a:focus {
 }
 
 .portfolio .portfolio-item:hover a.btn {
-    color: #007bff;
+    color: var(--primary);
     background: transparent;
-    box-shadow: inset 0 0 0 0 #007bff;
-    border-color: #007bff;
+    box-shadow: inset 0 0 0 0 var(--primary);
+    border-color: var(--primary);
 }
 
 
@@ -843,7 +850,7 @@ a:focus {
     width: 100%;
     margin: 45px 0;
     padding: 90px 0;
-    background: #007bff;
+    background: var(--primary);
 }
 
 .banner .container {
@@ -880,7 +887,7 @@ a:focus {
 
 .banner .banner-text .btn {
     margin-top: 15px;
-    color: #007bff;
+    color: var(--primary);
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -914,7 +921,7 @@ a:focus {
 	transition: all 0.5s;
 }
 .price .service-item:hover{
-	border-bottom: 4px solid #007bff;
+	border-bottom: 4px solid var(--primary);
 	box-shadow: 0px 10px 15px 0px #badbff;
 }
 .price .service-item:hover .icon{
@@ -932,7 +939,7 @@ a:focus {
 }
 .price .service-item i{
 	font-size: 30px;
-	color: #007bff;
+	color: var(--primary);
 }
 .price .service-item h3{
 	font-size: 22px;
@@ -950,7 +957,7 @@ a:focus {
     position: relative;
     width: 100%;
     margin: 45px 0;
-    background: #007bff;
+    background: var(--primary);
 }
 
 .contact .container-fluid {
@@ -961,7 +968,7 @@ a:focus {
 .contact .contact-form {
     position: relative;
     padding: 90px 0 90px 45px;
-    background: #007bff;
+    background: var(--primary);
 }
 
 .contact .contact-form input {
@@ -995,7 +1002,7 @@ a:focus {
 
 .contact .contact-form .btn {
     margin-top: 35px;
-    color: #007bff;
+    color: var(--primary);
     background: #ffffff;
     box-shadow: inset 0 0 0 50px #ffffff;
 }
@@ -1107,7 +1114,7 @@ a:focus {
 .footer {
     position: relative;
     margin-top: 45px;
-    background: #007bff;
+    background: var(--primary);
     color: #ffffff;
 }
 
