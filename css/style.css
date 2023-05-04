@@ -1136,25 +1136,58 @@ a:focus {
 }
 .footer .footer-info h2 {
     margin-bottom: 10px;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 700;
     color: #ffffff;
 }
 .footer .footer-info p{
     text-align: left;
     margin-bottom: 15px;
     font-size: 1rem;
-    font-weight: 400;
+    font-weight: 600;
     color: #ffffff;
     margin-right: 50px;
+    line-height: 20px;
+    letter-spacing: 0px;
 }
 .footer .footer-social a i {
     margin-right: 15px;
-    font-size: 20px;
-    color: #ffffff;
-    transition: .3s;
+    font-size: 1rem;
+    color: var(--primary);
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 100%;
+    transition: .5s;
 }
 .footer .footer-social a:hover i {
+    color: #ffffff;
+    background-color: var(--primary);
+}
+.footer-contact{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.footer-contact ul{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+.footer-contact ul li{
+    margin: 15px 0px;
+}
+.footer-contact ul li a{
+    margin-left: 10px;
+    font-size: 1rem;
+    color: #ffffff;
+    transition: .5s;
+}
+.footer-contact ul li i{
+    border: 1px solid #ffffff;
+    padding: 10px;
+    border-radius: 100%;
+}
+.footer .footer-contact a:hover {
     color: #414141;
 }
 /* Footer Copyright */
@@ -1162,8 +1195,8 @@ a:focus {
     position: relative;
     text-align: center;
     margin-top: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 .footer .copyright::before {
     position: absolute;
@@ -1188,44 +1221,6 @@ a:focus {
     color: #414141;
 } 
 /*
-.footer .copyright {
-    position: relative;
-    text-align: center;
-    margin-top: 30px;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.footer .copyright::before {
-    position: absolute;
-    content: "";
-    width: 50%;
-    height: 1px;
-    top: 0;
-    left: 25%;
-    background: rgba(256, 256, 256, .2);
-}
-
-.footer .copyright p {
-    margin: 0;
-    color: #ffffff;
-}
-
-.footer .copyright .col-md-6:last-child p {
-    text-align: right;
-}
-
-.footer .copyright p a {
-    color: #ffffff;
-    font-weight: 400;
-    font-size: .8rem;
-}
-
-.footer .copyright p a:hover {
-    color: #414141;
-    transition-delay: .5s;
-} */
-
 @media (max-width: 575.98px) {
     /* .footer .footer-info h2 {
         margin-bottom: 20px;
