@@ -239,7 +239,7 @@ a:focus {
     
     .navbar a.nav-link {
         padding: 5px;
-        margin: 10px 0px;
+        margin: 15px 0px;
     }
     
     .navbar .dropdown-menu {
@@ -253,7 +253,7 @@ a:focus {
         outline: none !important;
     }
     .navbar-light .navbar-toggler{
-        color: var(--primary);
+        color: var(--info-text-color);
         border: none !important;
     }
 }
