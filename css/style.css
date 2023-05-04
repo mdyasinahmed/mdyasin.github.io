@@ -3,15 +3,16 @@
 /*******************************/
 body {
     color: #797979;
-    background: #ffffff;
+    background: #eff3f8;
     font-family: 'Montserrat', sans-serif;
 }
 
 :root {
     --primary: #7b74f9;
     --primary1: #9a65f0;
-    --info-text-color: #55598a;
+    --info-text-color: #8599ab;
     --normal-text: #414141;
+    --third-color: #eff3f8;
 }
 
 h1,
@@ -450,7 +451,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #ffffff;
+    background: #eff3f8;
 }
 
 .section-header p::before {
@@ -693,7 +694,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     border: 1px solid var(--primary);
-    background: #ffffff;
+    background: #eff3f8;
 }
 
 .service .service-icon i {
@@ -1055,6 +1056,7 @@ a:focus {
     position: relative;
     margin-bottom: 30px;
     border: 1px solid #cee6ff;
+    box-shadow: 0 0 45px rgba(0, 0, 0, .05);
 }
 
 .blog .blog-img {
