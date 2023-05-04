@@ -261,10 +261,6 @@ a:focus {
     padding: 0;
 }
 
-.hero .hero-image {
-    padding-right: 75px;
-}
-
 .hero .hero-image img {
     max-width: 80%;
     max-height: 60%;
