@@ -232,7 +232,6 @@ a:focus {
     .navbar .navbar-brand {
         color: var(--primary);
     }
-    
     .navbar .navbar-nav {
         margin-top: 15px;
     }
@@ -244,6 +243,17 @@ a:focus {
     
     .navbar .dropdown-menu {
         box-shadow: none;
+    }
+    .navbar .navbar-toggle{
+        border: none !important;
+        
+    }
+    .navbar .navbar-toggler:focus{
+        outline: none !important;
+    }
+    .navbar-light .navbar-toggler{
+        color: var(--primary);
+        border: none !important;
     }
 }
 
