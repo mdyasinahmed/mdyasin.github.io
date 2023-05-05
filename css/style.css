@@ -151,7 +151,7 @@ a:focus {
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, .3);
+    box-shadow: 0 2px 5px rgba(113, 113, 113, 0.3);
 }
 
 .navbar .navbar-brand {
@@ -188,7 +188,7 @@ a:focus {
     
     .navbar.nav-sticky {
         padding: 10px 60px;
-        background: #ffffff !important;
+        background: #f8f9fa !important;
     }
     
     .navbar .navbar-brand {
