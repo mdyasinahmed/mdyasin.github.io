@@ -348,10 +348,6 @@ a:focus {
     border-radius: 25px !important;
 }
 .hero-social{
-    display: none;
-    position: absolute;
-    bottom: -20%;
-    left: -5%;
     padding: 10px 20px;
 }
 .hero .hero-social .social-btn{
