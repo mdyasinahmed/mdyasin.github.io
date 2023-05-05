@@ -393,7 +393,7 @@ a:focus {
     font-weight: 600;
     letter-spacing: 1px;
     text-transform: uppercase;
-    background: #eff3f8;
+    background: #fafcff;
 }
 
 .section-header p::before {
