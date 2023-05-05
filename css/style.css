@@ -249,12 +249,24 @@ a:focus {
         border: none !important;
         
     }
+    .navbar .navbar-toggler .fa-minus{
+        display: none !important;
+    }
     .navbar .navbar-toggler:focus{
         outline: none !important;
     }
     .navbar-light .navbar-toggler{
         color: var(--info-text-color);
         border: none !important;
+    }
+    .navbar .navbar-toggler:focus .fa-bars{
+        display: none !important;
+    }
+    .navbar .navbar-toggler:focus .fa-minus{
+        display: contents !important;
+    }
+    .navbar .navbar-toggler::after .fa-bars{
+        display: contents !important;
     }
 }
 
