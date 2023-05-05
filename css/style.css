@@ -3,7 +3,7 @@
 /*******************************/
 body {
     color: #797979;
-    background: #eff3f8;
+    background: #fafcff;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -280,18 +280,9 @@ a:focus {
     margin-bottom: 30px;
     padding: 120px 0 0 0;
 }
-
-.hero .container-fluid {
-    padding: 0;
+.hero .hero-body{
+    margin: 50px auto;
 }
-.hero .hero-image{
-    padding: 15px;
-}
-.hero .hero-image img {
-    max-width: 80%;
-    max-height: 60%;
-}
-
 .hero .hero-content {
     position: relative;
 }
@@ -353,6 +344,36 @@ a:focus {
 
 .hero-social a:hover {
     color: var(--normal-text);
+}
+/* hero-image */
+.hero .hero-image{
+    padding: 25px;
+}
+.hero .hero-image img {
+    max-width: 80%;
+    max-height: 60%;
+}
+/* hero-responsive */
+@media (max-width: 767.98px) {
+    .hero{
+        padding: 60px 0 0 0;
+    }
+    .hero .hero-text p{
+        font-size: 1rem;
+        margin-bottom: 5px !important;
+    }
+    .hero .hero-text h1{
+        font-size: 3.5rem;
+    }
+    .hero .hero-text h2{
+        font-size: 1.8rem;
+    }
+    .hero .info-text p{
+        font-size: .8rem;
+    }
+    .hero-image img{
+        margin-top: 25px;
+    }
 }
 /*******************************/
 /******* Section Header ********/
