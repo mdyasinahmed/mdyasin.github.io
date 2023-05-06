@@ -379,6 +379,12 @@ a:focus {
     .hero .info-text p{
         font-size: .8rem;
     }
+    .hero-links{
+        text-align: center;
+    }
+    .hero-links img{
+        margin: 10px;
+    }
     .hero-image img{
         margin-top: 25px;
     }
