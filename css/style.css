@@ -345,6 +345,14 @@ a:focus {
 .hero-social a:hover {
     color: var(--normal-text);
 }
+/* hero-links */
+.hero-links{
+    padding: 20px 0px;
+}
+.hero-links img{
+    margin-right: 15px;
+    width: 100px;
+}
 /* hero-image */
 .hero .hero-image{
     padding: 25px;
