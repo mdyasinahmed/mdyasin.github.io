@@ -378,6 +378,7 @@ a:focus {
     }
     .hero .info-text p{
         font-size: .8rem;
+        padding: 10px;
     }
     .hero-links{
         text-align: center;
