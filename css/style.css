@@ -353,6 +353,13 @@ a:focus {
     margin-right: 15px;
     width: 100px;
 }
+.hero-links h6{
+    margin: 5px 0;
+    color: var(--primary);
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+}
 /* hero-image */
 .hero .hero-image{
     padding: 25px;
@@ -651,7 +658,7 @@ a:focus {
     align-items: center;
     justify-content: center;
     border: 1px solid var(--primary);
-    background: #eff3f8;
+    background: #fafcff;
 }
 
 .service .service-icon i {
