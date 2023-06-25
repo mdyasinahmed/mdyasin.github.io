@@ -354,11 +354,12 @@ a:focus {
     width: 100px;
 }
 .hero-links h6{
-    margin: 5px 0;
-    color: var(--primary);
+    margin: 10px 30px 5px 0px;
+    color: var(--info-text-color);
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
+    text-align: left !important;
 }
 /* hero-image */
 .hero .hero-image{
