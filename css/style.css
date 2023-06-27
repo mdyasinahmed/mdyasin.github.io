@@ -8,7 +8,8 @@ body {
 }
 
 :root {
-    --primary: #7b74f9;
+    --primary: #5596ff;
+    --primary0: #7b74f9;
     --primary1: #9a65f0;
     --info-text-color: #8599ab;
     --normal-text: #414141;
@@ -1016,7 +1017,10 @@ a:focus {
     width: 100%;
     padding: 45px 0 15px 0;
 }
-
+.blog-content{
+    width: 65%;
+    margin: 24px auto;
+}
 .blog .blog-item {
     position: relative;
     margin-bottom: 30px;
