@@ -1086,7 +1086,12 @@ a:focus {
     margin: 0;
 }
 
-
+@media (max-width: 767.98px) {
+    .blog-content{
+        width: 100%;
+        margin: 24px auto;
+    }
+}
 /*******************************/
 /********* Footer CSS **********/
 /*******************************/
