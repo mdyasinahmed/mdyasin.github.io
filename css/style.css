@@ -455,6 +455,14 @@ a:focus {
     }
 }
 
+/* Online Judge Profiles */
+
+.ojProfileSingle {
+    padding: 20px 25px;
+}
+
+
+
 /******* Experience CSS ********/
 /*******************************/
 .experience {
