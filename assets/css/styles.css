@@ -1,0 +1,194 @@
+body{
+    background: var(--background-color) !important;
+}
+
+:root{
+    --primary: #1B1B32;
+
+    --background-color : #eceeff;
+
+    --hover-color : blue;
+
+    --second-color: #605555;
+}
+
+
+section{
+    margin-top: 30px;
+    padding: 25px 0;
+}
+
+
+/* navbar area */
+header .navBar-section nav{
+    background-color: var(--primary) !important;
+}
+
+
+
+/* hero-profile area */
+header section{
+    margin-top: 0 !important;
+    font-weight: 200;
+}
+header .hero-profile{
+    padding: 75px 0;
+    margin-top: 0 !important;
+    background-color: var(--primary);
+    color: var(--background-color);
+}
+header .hero-profile .hero-title{
+    font-family: 'Courgette', cursive !important;
+}
+header .hero-profile .hero-profile-image img{
+    height: 12rem;
+    width: 12rem;
+    border: 5px solid rgba(122, 122, 150, 0.75);
+}
+header .hero-profile .hero-info{
+    margin-top: 25px;
+}
+header .hero-profile .hero-info h1{
+    letter-spacing: -2px;
+    font-weight: 700;
+}
+header .hero-profile .hero-info .hero-paragraph{
+    margin: 10px 25px;
+    font-weight: 450;
+}
+header .hero-profile .hero-info .hero-buttons{
+
+}
+
+/* Project section */
+.project-single{
+    position: relative;
+    width: 100%;
+    height: 20rem;
+    margin: 10px 0;
+}
+.project-single .project-single-app-image {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/projects/title-image/app-bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.project-single .project-single-weba-image {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/projects/title-image/webapp-bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.project-single .project-single-webs-image {
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/projects/title-image/website-bg.jpg);
+    background-position: center;
+    background-size: cover;
+
+
+}
+.project-single-texts {
+    padding: 5px;
+    background-color: #1b1b32b7;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    color: #FFFFFF;
+}
+.project-single-texts .skills-icons img{
+    height: 150px;
+    padding: 10px;
+}
+.project-single-texts .skills-info {
+    margin-top: 20px;
+}
+
+.project-single-texts h5 a {
+    text-align: left !important;
+}
+
+/* Drop Message Area */
+.dropMessage{
+    padding: 50px 0 !important;
+    background-color: var(--primary);
+    color: #FFFFFF;
+}
+/* My Profile Section */
+.profile-body .profile-single{
+    padding: 25px 0;
+}
+
+.profile-body .profile-single-image{
+    padding: 15px 0;
+}
+
+.profile-body .profile-single-image img{
+    height: 2rem;
+}
+
+.profile-single .profile-single-button a{
+    text-decoration: underline;
+}
+.profile-single .profile-single-button a:hover {
+    color: var(--primary);
+}
+
+.profile-single .profile-single-button a i{
+    margin: 5px;
+    color: var(--primary);
+}
+
+
+/* footer section */
+footer {
+    padding-bottom: 0 !important;
+}
+footer section{
+    padding-bottom: 0;
+}
+footer .footer-body .footer-text h3 {
+    font-weight: 700;
+    letter-spacing: -.65px;
+    color: var(--primary);
+}
+footer .footer-body .footer-icons a {
+    font-size: 1.2rem;
+    margin: .2rem;
+    padding: .2rem;
+    color: var(--second-color);
+    /* background-color: var(--primary); */
+    /* border: 1px solid var(--primary); */
+    /* border-radius: 50%;  */
+
+}
+footer .footer-body .footer-icons a:hover {
+    color: var(--primary);
+    /* background-color: var(--hover-color); */
+}
+footer .footer-body .footer-contact a {
+    /* display: flex; */
+    /* justify-content: center;  */
+    text-decoration: none;
+    color: var(--primary);
+}
+footer .footer-body .footer-contact .footer-contact-single {
+    margin: 0px 5px;
+    color: var(--primary);
+}
+footer .footer-body .copyright {
+    margin-top: 15px;
+}
+footer .footer-body .copyright a {
+    text-decoration: none;
+    color:#707070;
+    font-size: 14px;
+}
