@@ -1,552 +1,317 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Yasin | Programmer and Web Developer from Bangladesh</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport">
-        <meta content="A passionate Programmer and Web Developer from Bangladesh" name="keywords">
-        <meta content="A passionate Programmer and Web Developer from Bangladesh" name="description">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Yasin | Programmer from Bangladesh</title>
+    <!-- Google Fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <!-- Own CSS links -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- Favicon -->
-        <link rel="icon" type="image" href="img/favicon.ico">
+    <!--Bootstrap links-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--
+        all sections:
+            header:
+                menu bar
+                hero section
+            main:
+                about section
+                ++ experience/expertise/oj profiles section
+                ++ project
+                call-in action
+                blog section
+            footer:
+                ++ direct contacts
+                ++ socials links
+                
+    -->
 
-        <!-- Google Font -->
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-        <!-- CSS Libraries -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-        <link href="lib/animate/animate.min.css" rel="stylesheet">
-        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-        <!-- Stylesheet -->
-        <link href="css/style.css" rel="stylesheet">
-    </head>
-
-    <body data-spy="scroll" data-target=".navbar" data-offset="51">
-        <!-- Nav Bar Start -->
-        <div class="navbar navbar-expand-lg bg-light navbar-light">
-            <div class="container-fluid">
-                <a href="index.html" class="navbar-brand"><img src="img/yasin.png" alt=""></a>
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-                    <i class="fa fa-bars"></i>
-                    <i class="fa fa-minus"></i>
-                </button>
-
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav ml-auto">
-                        <a href="#home" class="nav-item nav-link active">Home</a>
-                        <a href="#portfolio" class="nav-item nav-link">Projects</a>
-                        <a href="#blog" class="nav-item nav-link">Blogs</a>
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
-                        <a class="btn" href="#contact">Send Message</a>
+    <!--header section-->
+    <header class=" ">
+        <!-- nav-bar area -->
+        <section class="navBar-section">
+            <nav class="navbar navbar-dark bg-dark fixed-top">
+                <div class="container">
+                  <a class="navbar-brand" href="#">mdyasin.com</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Yasin's Profile</h5>
+                      <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Projects
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark">
+                              <li><a class="dropdown-item" href="#">Mobile Applications</a></li>
+                              <li><a class="dropdown-item" href="#">Web Applications</a></li>
+                              <!-- <li>
+                                <hr class="dropdown-divider">
+                              </li> -->
+                              <li><a class="dropdown-item" href="#">Websites</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">OJ Profiles</a>
+                          </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Articles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contacts</a>
+                          </li>
+                      </ul>
+                      <!-- <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-success" type="submit">Search</button>
+                      </form> -->
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </div>
-        <!-- Nav Bar End -->
-        
-        <!-- Hero Start -->
-        <div class="hero" id="home">
-            <div class="container hero-body">
-                <div class="row align-items-center">
-                    <div class="col-sm-12 col-lg-6">
-                        <div class="hero-content">
-                            <div class="hero-text">
-                                <p>Hi there, I'm</p>
-                                <h1><span class="yasin">Yasin</span> Ahmed</h1>
-                                <h2></h2>
-                                <div class="typed-text">Programmer, Web Developer</div>
-                                <div class="info-text">
-                                    <p>A passionate Web Developer & Programmer from Bangladesh, love to make the web more open to the world. I'm doing my bachelor in Computer Science & Engineering from Metropolitan University. It gives me pleasure to convert creative thoughts to visual by coding.</p>
-                                </div>
-                            </div>
-                            <div class="hero-btn">
-                                <div class="hero-resume">
-                                    <a class="btn" href="#contact">Visit My Profile</a>
-                                </div>
-                                <div class="hero-social">
-                                    <a target="_blank" href="https://github.com/mdyasinahmed"><i class="fab fa-github"></i></a>
-                                    <a target="_blank" href="https://www.linkedin.com/in/mdyasiin/"><i class="fab fa-linkedin"></i></a>
-                                </div>
-                            </div>
-                            <!--
-                            <div class="hero-links">
-                                <a target="_blank" href="https://www.linkedin.com/in/mdyasiin/"><img src="img/oj/leetcode.svg" class="img-fluid" alt="" srcset="" style="display: none;"></a>
-                            </div>
-                            -->
-                        </div>
-                    </div>
-                    <div class="col-sm-12 col-lg-6 align-self-center text-center">
-                        <div class="hero-image text-center">
-                            <img src="img/hero.png" alt="Hero Image">
-                        </div>
-                    </div>
+            </nav>
+        </section>
+        <section class="hero-profile">
+            <div class="heroProfile-body container-fluid text-center">
+                <p class="hero-title">
+                    'The one-man tech team ready to bring your next big idea to life.'
+                </p>
+                <div class="hero-profile-image">
+                    <img src="assets/images/hero-profile/2022.jpg" class="img-fluid" width="200" height="200" alt="">
                 </div>
-            </div>
-        </div>
-        <!-- Hero End -->
-    
-        <section class="online-judge-profiles container">
-            <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                <p>Problem Solving Proficiency</p>
-                <h2>My Online Judge Profiles</h2>
-            </div>
-            <div class="onlineJudgeBody">
-                <div class="row">
-                    <div class="col-sm-12 col-lg-6">
-                        <div class="ojProfileSingle">
-                            <div class="oj-image">
-                                <a target="_blank" href="https://codeforces.com/profile/mdyasinahmed"><img src="img/oj/Codeforces.png" class="img-fluid" alt="" srcset=""></a>
-                            </div>
-                            <p class="text-center">Solving contest level problems.</p>
-                        </div>
-                    </div>
-
-                     <div class="col-sm-12 col-lg-6">
-                        <div class="ojProfileSingle">
-                            <div class="oj-image">
-                                <a target="_blank" href="https://www.hackerrank.com/mdyasiin"><img src="img/oj/hackerrank.png" class="img-fluid" alt="" srcset=""></a>
-                            </div>
-                            
-                            <p class="text-center">Learning everyday with solving problem in HackerRank.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="col-sm-12 col-lg-6">
-                        <div class="ojProfileSingle">
-                            <div class="oj-image">
-                                <a class="text-center" target="_blank" href="https://www.beecrowd.com.br/judge/en/profile/710596"><img src="img/oj/beecrowd.png" class="img-fluid" alt="" srcset=""></a>
-                            </div>
-                            
-                            <p class="text-center">I started my Problem Solving journey with beecrowd.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-sm-12 col-lg-6">
-                        <div class="ojProfileSingle">
-                            <div class="oj-image">
-                                <a target="_blank" href="https://www.codechef.com/users/mdyasinahmed"><img src="img/oj/Codechef.png" class="img-fluid" alt="" srcset=""></a>
-                            </div>
-                            <p class="text-center">Solving basic level problems.</p>
-                        </div>
+                
+                <div class="hero-info">
+                    <h1>Md. Yasin Ahmed Mahi</h1>
+                    <!-- <h4>Programmer | Developer</h4> -->
+                    <p class="hero-paragraph"> An independent app & web developer from Bangladesh, building apps and online experiences for companies large and small.</p>
+                    <div class="hero-buttons">
+                        <a href="http://">Download Resume</a>
+                        <a href="https://www.linkedin.com/in/mdyasiin/"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://github.com/mdyasinahmed"><i class="bi bi-github"></i></a>
                     </div>
                 </div>
             </div>
         </section>
+        <section class="hero-about container-fluid">
+        </section>
+
+    </header>
 
 
-    <!--
-
-        <div class="service" id="service">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>What I do</p>
-                    <h2>My Proficiency</h2>
+    <!--main section-->
+    <main>
+        <!-- Projects Showcase Section -->
+        <section class="myProjects">
+            <div class="myProjects-body container text-center">
+                <div class="section-headers text-center">
+                    <h4>Projects</h4>
+                    <i class="bi bi-caret-down-fill"></i>
                 </div>
-                <div class="row">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.0s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Front End Development</h3>
-                                <p>
-                                    HTML, CSS, Bootstrap, Tailwind, JavaScript, jQuery
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-laptop-code"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Back End Development</h3>
-                                <p>
-                                    Python & Currently a Learner
-                                </p>
+                <div class="projects-body text-center">
+                    <div class="row text-center">
+                        <div class="col-md-4 text-center">
+                            <div class="project-single">
+                                <div class="project-single-app-image">
+
+                                </div>
+                                <div class="project-single-texts">
+                                    <div class="skills-icons container"> 
+                                        <img src="assets/images/projects/title-image/flutter.png" class="img-fluid" alt="">
+                                    </div>
+                                   <div class="skills-info">
+                                        <h5>Mobile Applications</h5>
+                                        <p>Android and iOS Mobile Application using Flutter.</p>
+                                        <a href="#" class="btn btn-primary">Check Projects</a>
+                                   </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-tools"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Website Customization</h3>
-                                <p>
-                                    Custom , WordPress, Wix, Shopify, Webflow
-                                </p>
+                        <div class="col-md-4">
+                            <div class="project-single">
+                                <div class="project-single-weba-image">
+
+                                </div>
+                                <div class="project-single-texts">
+                                    <div class="skills-icons container"> 
+                                        <img src="assets/images/projects/title-image/java.png" class="img-fluid" alt="">
+                                    </div>
+                                   <div class="skills-info">
+                                        <h5>Web Applications</h5>
+                                        <p>Web Application using Java, Java Swing.</p>
+                                        <a href="#" class="btn btn-primary">Check Projects</a>
+                                   </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fa fa-code"></i>
-                            </div>
-                            <div class="service-text">
-                                <h3>Problem Solving</h3>
-                                <p>
-                                    beecrowd, CodeChef, HackerRank, CodeForces
-                                </p>
+                        <div class="col-md-4">
+                            <div class="project-single">
+                                <div class="project-single-webs-image">
+
+                                </div>
+                                <div class="project-single-texts">
+                                    <div class="skills-icons container"> 
+                                        <img src="assets/images/projects/title-image/websites.png" class="img-fluid" alt="">
+                                    </div>
+                                   <div class="skills-info">
+                                        <h5>Websites</h5>
+                                        <p>Fully responsive website using HTML, CSS, Bootstrap and JavaScript.</p>
+                                        <a href="#" class="btn btn-primary">Check Projects</a>
+                                   </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    -->
-        
-         <!-- Experience Start -->
-        <div class="experience" id="experience">
-            <div class="container">
-                <header class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Resume</p>
-                    <h2>Working Experience</h2>
-                </header>
-                <div class="timeline">
-                    <div class="timeline-item left wow slideInLeft" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2020 - 2021</div>
-                            <h2>Freelance Web Developer</h2>
-                            <h4>fiverr.com</h4>
-                            <p>
-                                I started my career as a Web Developer. My strongest skill was website Landing Page Developing. I also developed a lot of functional websites.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item right wow slideInRight" data-wow-delay="0.1s">
-                        <div class="timeline-text">
-                            <div class="timeline-date">2019 - 2020</div>
-                            <h2>Front-End Web Developer Intern</h2>
-                            <h4>Think Creative, Bangladesh</h4>
-                            <p>
-                                Starting of my Web Journey. I've learn HTML, CSS, Bootstrap, JavaScript, jQuery and done some Font-End Projects while learning.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Job Experience End -->
 
-        <!-- Portfolio Start -->
-        <div class="portfolio" id="portfolio">
-            <div class="container ">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>My Portfolio</p>
-                    <h2>My Excellent Portfolio</h2>
-                </div>
-                    <div class="projects-page">
-                        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                            <div class="carousel-indicators">
-                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                            </div>
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <img src="img/portfolio-3.png" class="d-block w-100" alt="img/portfolio-1.png">
-                                <div class="project-details carousel-caption d-md-block">
-                                    <h5>E-commerce Landing Page</h5>
-                                    <p>Using HTML5, CSS3, Bootstrap5</p>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="img/portfolio-2.png" class="d-block w-100" alt="img/portfolio-1.png">
-                                <div class="project-details carousel-caption d-md-block">
-                                    <h5>Agency Landing Page</h5>
-                                    <p>Using HTML5, CSS3, Bootstrap5</p>
-                                </div>
-                              </div>
-                              <div class="carousel-item">
-                                <img src="img/portfolio-1.png" class="d-block w-100" alt="img/portfolio-1.png">
-                                <div class="project-details carousel-caption d-md-block">
-                                    <h5>Bitcoin Landing Page</h5>
-                                    <p>Using HTML5, CSS3, Bootstrap5</p>
-                                </div>
-                              </div>
-                            </div>
-                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                              <span class=""><i class="fa fa-regular fa-angle-left"></i></span>
-                            </button>
-                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                                <span class=""><i class="fa fa-regular fa-angle-right"></i></span>
-                            </button>
-                          </div>
-                    </div>
-                <!-- <div class="row portfolio-container">
-                </div> -->
-            </div>
-        </div>
-        <!-- Portfolio End -->
-        
-        <!-- Banner Start -->
-        <div class="banner wow zoomIn" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="section-header text-center">
+        </section>
+        <!-- Call in Actions Section -->
+        <section class="dropMessage">
+            <div class="dropMessage-body container text-center">
+                <div class="dropMessage-texts">
                     <p>It's time to start your project</p>
-                    <h2>Drop A <span>Message</span> For Me</h2>
-                </div>
-                <div class="container banner-text">
-                    <p>
-                        Let's work together in your upcoming project. 
-                    </p>
-                    <a class="btn" href="mailto:mdyasinahmedmahi@gmail.com?subject=Hi there!">Knock Now</a>
+                    <h2>Drop a <span>Message</span> for any Queries</h2>
+                    <p>Let's work together in your upcoming project.</p>
+                    <a class="btn btn-primary" href="mailto:inbox.mdyasin@gmail.com"><i class="bi bi-chat-right-text"></i> Send Message</a>
                 </div>
             </div>
-        </div>
-        <!-- Banner End -->
-        
-        <!-- Price Start -->
-        <div class="price" id="price">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>Why choose me?</p>
-                    <h2>My Specialties</h2>
+        </section>
+        <!-- Online Judge Profiles Section -->
+        <section class="myProfiles">
+            <div class="myProfiles-body container">
+                <div class="section-headers text-center">
+                    <h4>Online Judge Profiles</h4>
+                    <i class="bi bi-caret-down-fill"></i>
                 </div>
-                <div class="row">
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
-                        <div class="service-item text-center">
-                            <div class="icon">
-                            <i class="fa fa-laptop"></i>
-                            </div>
-                            <h3>Fully Responsive</h3>
-                            <p>Ensures users a flexible layout.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="service-item text-center">
-                            <div class="icon">
-                            <i class="fa fa-code"></i>
-                            </div>
-                            <h3>Clean Code</h3>
-                            <p>Well Documented project.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                        <div class="service-item text-center">
-                            <div class="icon">
-                            <i class="fa fa-headset"></i>
-                            </div>
-                            <h3>Fast Support</h3>
-                            <p>24/6 Hours Online Support. </p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="service-item text-center">
-                            <div class="icon">
-                            <i class="fa fa-solid fa-lightbulb"></i>
-                            </div>
-                            <h3>Creative Thoughts</h3>
-                            <p>Creative thinking can create a strong impression & build a brand identity.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.5s">
-                        <div class="service-item text-center">
-                            <div class="icon">
-                            <i class="fa fa-cubes"></i>
-                            </div>
-                            <h3>Branding</h3>
-                            <p>Particular branding will highlight your company smartly in global stage.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="service-item text-center">
-                            <div class="icon">
-                                <i class="fa fa-regular fa-window-restore"></i>
-                            </div>
-                            <h3>Full-Stack</h3>
-                            <p>Both the Front-End & Back-End Development.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Price End -->
-
-        <!-- Contact Start -->
-        <div class="contact wow fadeInUp" data-wow-delay="0.1s" id="contact">
-            <div class="container-fluid">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-8">
-                            <div class="contact-form">
-                                <div id="success"></div>
-                                <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="email" class="form-control" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <input type="text" class="form-control" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div class="control-group">
-                                        <textarea class="form-control" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                        <p class="help-block"></p>
-                                    </div>
-                                    <div>
-                                        <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Contact End -->
-
-
-        <!-- Blog Start -->
-        <div class="blog" id="blog">
-            <div class="container">
-                <div class="section-header text-center wow zoomIn" data-wow-delay="0.1s">
-                    <p>From Blog</p>
-                    <h2>Latest Articles</h2>
-                </div>
-                <div class="blog-content">
-                    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-                        <!-- carousel-body -->
-                        <div class="carousel-inner">
-                            <!-- blog-1 -->
-                            <div class="carousel-item active">
-                                <div class="blog-item wow fadeInUp" data-wow-delay="0.1s">
-                                    <div class="blog-img">
-                                        <img src="img/blog-1.jpg" alt="Blog">
-                                    </div>
-                                    <div class="blog-text">
-                                        <h2>What happens if you don’t set tasks for the next day before going to sleep?</h2>
-                                        <div class="blog-meta">
-                                            <p><i class="far fa-user"></i>Yasin</p>
-                                            <p><i class="far fa-list-alt"></i>Productivity</p>
-                                            <p><i class="far fa-calendar-alt"></i>Feb 16, 2023</p>
-                                            <p><i class="far fa-comments"></i>2</p>
-                                        </div>
-                                        <p>
-                                            Do you ever find yourself feeling overwhelmed by your to-do list? Are you constantly struggling to find the time to accomplish everything you need to do? If so, you’re not alone. Many people struggle with time management and productivity, but there’s one simple habit that can help...
-                                        </p>
-                                        <a class="btn" target="_blank" href="https://medium.com/@md_yasinahmed/what-happens-if-you-dont-set-tasks-for-the-next-day-before-going-to-sleep-6b2bc875aea">Read on Medium<i class="fa fa-angle-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- blog-2 -->
-                            <div class="carousel-item">
-                                <div class="blog-item">
-                                    <div class="blog-img">
-                                        <img src="img/blog-2.jpg" alt="Blog">
-                                    </div>
-                                    <div class="blog-text">
-                                        <h2>How to prepare a well-organized Presentation?</h2>
-                                        <div class="blog-meta">
-                                            <p><i class="far fa-user"></i>Yasin</p>
-                                            <p><i class="far fa-list-alt"></i>Presentation</p>
-                                            <p><i class="far fa-calendar-alt"></i>Jan 28, 2023</p>
-                                            <p><i class="far fa-comments"></i>4</p>
-                                        </div>
-                                        <p>
-                                            When giving a presentation, the speaker provides the audience with a variety of information. A successful presentation must have a clear framework in order to capture the audience’s interest and make it simple for them to understand what you are saying. If the speaker becomes sidetracked...
-                                        </p>
-                                        <a class="btn" target="_blank" href="https://medium.com/@md_yasinahmed/how-to-prepare-a-well-organized-presentation-dfc332f47dff">Read on Medium <i class="fa fa-angle-right"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!--buttons -->
-                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Previous</span>
-                        </button>
-                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="visually-hidden">Next</span>
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Blog End -->
-
-
-        <!-- Footer Start -->
-        <div class="footer wow fadeIn" data-wow-delay="0.3s">
-            <div class="container-fluid">
-                <div class="container">
+                <div class="profile-body text-center">
                     <div class="row">
-                        <div class="col-md-6 col-lg-6">
-                            <div class="footer-menu">
-                                <div class="footer-info">
-                                    <h2>Yasin Ahmed</h2>
-                                    <p>Thanks for visiting my portfolio website. Are you feeling social? Let's connect with...</p>
-                                    <div class="footer-social">
-                                        <a href="https://github.com/mdyasinahmed"><i class="fab fa-github"></i></a>
-                                        <a href="https://www.linkedin.com/in/mdyasiin/"><i class="fab fa-linkedin-in"></i></a>
-                                        <a href="https://medium.com/@md_yasinahmed"><i class="fab fa-medium"></i></a>
-                                        <a href="https://twitter.com/mdyasiiin"><i class="fab fa-twitter"></i></a>
-                                    </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="profile-single">
+                                <div class="profile-single-image">
+                                    <img src="assets/images/oj/hackerrank.png" alt="HackerRank" class="img-fluid">
                                 </div>
+                                <div class="profile-single-button"><a target="_blank" href="https://www.hackerrank.com/profile/mdyasiin" class=" "><i class="bi bi-person-circle"></i>mdyasiin</a></div>
                             </div>
                         </div>
-                        <div class="col-md-6 col-lg-6">
-                            <div class="footer-contact">
-                                <ul>
-                                    <li><i class="fa fa-phone"></i><a href="">+880 1784 305 336</a></li>
-                                    <li><i class="fa fa-location-arrow"></i><a href="">Sylhet, Bangladesh.</a></li>
-                                    <li><i class="fa fa-envelope"></i><a href="">mdyasinahmedmahi@gmail.com</a></li>
-                                </ul>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="profile-single">
+                                <div class="profile-single-image">
+                                    <img src="assets/images/oj/Codeforces.png" alt="HackerRank" class="img-fluid">
+                                </div>
+                                <div class="profile-single-button"><a target="_blank" href="https://codeforces.com/profile/mdyasinahmed" class=" "><i class="bi bi-person-circle"></i>mdyasinahmed</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="profile-single">
+                                <div class="profile-single-image">
+                                    <img src="assets/images/oj/leetcode.svg" alt="HackerRank" class="img-fluid">
+                                </div>
+                                <div class="profile-single-button"><a target="_blank" href="https://leetcode.com/mdyasiin/" class=""><i class="bi bi-person-circle"></i>mdyasiin</a></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="profile-single">
+                                <div class="profile-single-image">
+                                    <img src="assets/images/oj/Codechef.png" alt="HackerRank" class="img-fluid">
+                                </div>
+                                <div class="profile-single-button"><a target="_blank" href="https://www.codechef.com/users/mdyasinahmed" class=" "><i class="bi bi-person-circle"></i>mdyasinahmed</a></div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="container copyright">
-                    <p><a href="www.mdyasin.com">© Yasin Ahmed 2023</a>
-                </div>
             </div>
-        </div>
-        <!-- Footer End -->
-        
-        
-        <!-- Back to top button -->
-        <a href="#" class="btn back-to-top"><i class="fa fa-chevron-up"></i></a>
-        
-        
-        <!-- Pre Loader -->
-        <div id="loader" class="show">
-            <div class="loader"></div>
-        </div>
 
-        
-        <!-- JavaScript Libraries -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
-        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/typed/typed.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/isotope/isotope.pkgd.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-        
-        <!-- Contact Javascript File -->
-        <script src="mail/jqBootstrapValidation.min.js"></script>
-        <script src="mail/contact.js"></script>
+        </section>
+        <!-- blog section -->
+        <section class="myArticles ">
+            <div class="myArticles-body container">
+                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="assets/images/blog/blog-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                          <h5>First slide label</h5>
+                          <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="assets/images/blog/blog-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                          <h5>Second slide label</h5>
+                          <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="assets/images/blog/blog-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-md-block">
+                          <h5>Third slide label</h5>
+                          <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+        </section>
 
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
-    </body>
+
+    </main>
+
+    <!--footer section-->
+    <footer>
+        <section class="footer-section">
+            <div class="footer-body container text-center">
+                <div class="footer-text">
+                    <h3>Md. Yasin Ahmed Mahi</h3>
+                    <div class="footer-icons">
+                        <!-- <i class="bi bi-envelope-arrow-up"></i> -->
+                        <a href="https://www.linkedin.com/in/mdyasiin/"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://medium.com/@md_yasinahmed"><i class="bi bi-medium"></i></a>
+                        <a href="https://github.com/mdyasinahmed"><i class="bi bi-github"></i></a>
+                    </div>
+                    <div class="footer-contact text-center">
+                        <div class="footer-contact-single">
+                            <a href="tel:+880 1329 845 414"><i class="bi bi-whatsapp"></i>+880 1329 845 414</a>
+                        </div>
+                        <div class="footer-contact-single">
+                            <a href="mailto:inbox.mdyasin@gmail.com"><i class="bi bi-inbox"></i>inbox.mdyasin@gmail.com</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="container copyright">
+                    <p><a href="https://www.mdyasin.com">© Yasin Ahmed 2023</a>
+                </p></div>
+            </div>
+        </section>
+
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
 </html>
