@@ -14,8 +14,7 @@ body{
 
 
 section{
-    margin-top: 30px;
-    padding: 25px 0;
+    padding: 30px 0;
 }
 
 .my-blank_button{
@@ -23,8 +22,8 @@ section{
     color: var(--background-color);
     border: 1px solid var(--background-color);
     padding: 5px 14px;
-    border-radius: 50px;
-    font-weight: 450;
+    /* border-radius: 50px; */
+    font-weight: 500;
 }
 .my-blank_button:hover {
     color: var(--primary) !important;
@@ -34,11 +33,18 @@ section{
 
 .my-fill_button{
     text-decoration: none;
+    background-color: var(--background-color);
+    /* border: 1px solid var(--background-color); */
+    color: var(--primary);
+    padding: 5px 14px;
+    /* border-radius: 50px; */
+    font-weight: 500;
+}
+.my-fill_button:hover {
     color: var(--background-color);
     border: 1px solid var(--background-color);
-    padding: 5px 14px;
-    border-radius: 50px;
-    font-weight: 450;
+    background:none;
+    transition: 1s;
 }
 /* navbar area */
 header .navBar-section nav{
