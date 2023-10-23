@@ -46,6 +46,13 @@ section{
     background:none;
     transition: 1s;
 }
+i {
+    font-size: 18px;
+    margin: 5px;
+}
+
+
+
 /* navbar area */
 header .navBar-section nav{
     background-color: var(--primary) !important;
@@ -196,8 +203,8 @@ footer .footer-body .footer-text h3 {
 }
 footer .footer-body .footer-icons a {
     font-size: 1.2rem;
-    margin: .2rem;
-    padding: .2rem;
+    /* margin: .2rem; */
+    /* padding: .2rem; */
     color: var(--second-color);
     /* background-color: var(--primary); */
     /* border: 1px solid var(--primary); */
