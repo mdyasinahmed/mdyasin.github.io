@@ -18,12 +18,36 @@ section{
     padding: 25px 0;
 }
 
+.my-blank_button{
+    text-decoration: none;
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+    padding: 5px 14px;
+    border-radius: 50px;
+    font-weight: 450;
+}
+.my-blank_button:hover {
+    color: var(--primary) !important;
+    background-color: var(--background-color);
+    transition: 1s;
+}
 
+.my-fill_button{
+    text-decoration: none;
+    color: var(--background-color);
+    border: 1px solid var(--background-color);
+    padding: 5px 14px;
+    border-radius: 50px;
+    font-weight: 450;
+}
 /* navbar area */
 header .navBar-section nav{
     background-color: var(--primary) !important;
 }
 
+header .offcanvas{
+    background-color: var(--primary) !important;
+}
 
 
 /* hero-profile area */
@@ -56,8 +80,12 @@ header .hero-profile .hero-info .hero-paragraph{
     margin: 10px 25px;
     font-weight: 450;
 }
-header .hero-profile .hero-info .hero-buttons{
-    /*  */
+header .hero-profile .hero-info .hero-buttons {
+    margin-top: 20px;
+}
+header .hero-profile .hero-info .hero-buttons a{
+    color: var(--background-color);
+    margin: 5px;
 }
 
 /* Project section */
