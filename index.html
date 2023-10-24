@@ -36,12 +36,12 @@
     -->
 
     <!--header section-->
-    <header class=" ">
+    <header class=" " id="home">
         <!-- nav-bar area -->
         <section class="navBar-section">
             <nav class="navbar navbar-dark bg-dark fixed-top">
                 <div class="container">
-                  <a class="navbar-brand" href="https://www.mdyasin.com/">mdyasin.com</a>
+                  <a class="navbar-brand" href="index.html">mdyasin.com</a>
                   <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
                     <span class="navbar-toggler-icon"></span>
                   </button>
@@ -53,29 +53,29 @@
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                          <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Projects
                             </a>
                             <ul class="dropdown-menu dropdown-menu-dark">
-                              <li><a class="dropdown-item" href="#">Mobile Applications</a></li>
-                              <li><a class="dropdown-item" href="#">Web Applications</a></li>
+                              <li><a class="dropdown-item" href="#projects">Mobile Applications</a></li>
+                              <li><a class="dropdown-item" href="#projects">Web Applications</a></li>
                               <!-- <li>
                                 <hr class="dropdown-divider">
                               </li> -->
-                              <li><a class="dropdown-item" href="#">Websites</a></li>
+                              <li><a class="dropdown-item" href="#projects">Websites</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">OJ Profiles</a>
+                            <a class="nav-link" href="#profiles">OJ Profiles</a>
                           </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#">Articles</a>
+                          <a class="nav-link" href="#articles">Articles</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contacts</a>
+                            <a class="nav-link" href="contact.html">Contacts</a>
                           </li>
                       </ul>
                       <!-- <form class="d-flex mt-3" role="search">
@@ -118,7 +118,7 @@
     <!--main section-->
     <main>
         <!-- Projects Showcase Section -->
-        <section class="myProjects">
+        <section class="myProjects" id="projects">
             <div class="myProjects-body container text-center">
                 <div class="section-headers text-center">
                     <h4>Projects</h4>
@@ -194,7 +194,7 @@
             </div>
         </section>
         <!-- Online Judge Profiles Section -->
-        <section class="myProfiles">
+        <section class="myProfiles" id="profiles">
             <div class="myProfiles-body container">
                 <div class="section-headers text-center">
                     <h4>Online Judge Profiles</h4>
@@ -239,7 +239,7 @@
             </div>
         </section>
         <!-- blog section -->
-        <section class="myArticles d-none">
+        <section class="myArticles d-none" id="articles">
             <div class="myArticles-body container">
                 <div id="carouselExampleDark" class="carousel carousel-dark slide">
                     <div class="carousel-indicators">
