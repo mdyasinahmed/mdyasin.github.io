@@ -16,6 +16,9 @@ body{
 section{
     margin: 30px 0;
 }
+.section-headers {
+    margin-bottom: 15px;
+}
 .section-headers h4{
     font-size: 1.75rem;
     font-weight: 650;
@@ -199,10 +202,16 @@ header .hero-profile .hero-info .hero-buttons a{
     color: var(--background-color);
     border: none !important;
     border-radius: 0% !important;
+    box-shadow: 15px 15px 0px -10px rgba(27,27,50,0.30);
+    -webkit-box-shadow: 15px 15px 0px -10px rgba(27,27,50,0.30);
+    -moz-box-shadow: 15px 15px 0px -10px rgba(27,27,50,0.30);
+}
+.singleArticle img{
+    border: none !important;
+    border-radius: 0% !important;
 }
 .singleArticle-body {
-    justify-items: center !important;
-    padding: 5px ;
+    padding: 25px !important;
 }
 /* footer section */
 footer {
