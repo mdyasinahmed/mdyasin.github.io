@@ -25,6 +25,7 @@ section{
 }
 /* Buttons styles */
 .my-blank_button{
+    margin-top: 20px !important;
     margin: 15px 0;
     padding: 5px 14px;
     text-decoration: none;
@@ -40,6 +41,7 @@ section{
 }
 
 .my-fill_button{
+    margin-top: 20px !important;
     text-decoration: none;
     margin: 15px 0;
     padding: 5px 14px;
