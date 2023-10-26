@@ -194,7 +194,16 @@ header .hero-profile .hero-info .hero-buttons a{
     color: var(--primary);
 }
 
-
+.singleArticle {
+    background-color: var(--primary) !important;
+    color: var(--background-color);
+    border: none !important;
+    border-radius: 0% !important;
+}
+.singleArticle-body {
+    justify-items: center !important;
+    padding: 5px ;
+}
 /* footer section */
 footer {
     padding-bottom: 0 !important;
