@@ -216,6 +216,7 @@ header .hero-profile .hero-info .hero-buttons a{
 /* footer section */
 footer {
     padding-bottom: 0 !important;
+    margin-top: 50px !important;
 }
 footer section{
     padding-bottom: 0;
