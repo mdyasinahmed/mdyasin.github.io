@@ -118,7 +118,7 @@
     <!--main section-->
     <main>
         <!-- Projects Showcase Section -->
-        <section class="myProjects" id="projects">
+        <!-- <section class="myProjects" id="projects">
             <div class="myProjects-body container text-center">
                 <div class="section-headers text-center">
                     <h4>Projects</h4>
@@ -142,8 +142,12 @@
                                             <img src="assets/images/projects/e-commerce.jpg" alt="e-Commerce Website" class="img-fluid">
                                         </div>
                                         <div class="project-title">
-                                            <h5>e-Commerce Website</h5>
-                                            <a href="#">+</a>
+                                            <div class="project-title-text">
+                                                <h5>e-Commerce Website</h5>
+                                            </div>
+                                            <div class="project-title-button">
+                                                <a href="#">+</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -208,7 +212,95 @@
                 </div>
             </div>
 
+        </section> -->
+        <!-- Portfolio Start -->
+        <section class="portfolio" id="portfolio">
+            <div class="container">
+                <div class="section-headers text-center">
+                    <h4>Projects</h4>
+                    <i class="bi bi-caret-down-fill"></i>
+                </div>
+                <div class="row d-none">
+                    <div class="col-12">
+                        <ul id="portfolio-filter">
+                            <li data-filter="*" class="filter-active">All</li>
+                            <li data-filter=".filter-1">Font End</li>
+                            <li data-filter=".filter-2">Backend</li>
+                            <li data-filter=".filter-3">Full-Stack</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="assets/images/projects/e-commerce.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>eCommerce Website</h3>
+                                <a class="btn" href="assets/images/projects/e-commerce.jpg">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="assets/images/projects/booking.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Booking Website</h3>
+                                <a class="btn" href="assets/images/projects/booking.jpg">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="assets/images/projects/social-media.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Social Media</h3>
+                                <a class="btn" href="assets/images/projects/social-media.jpg">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-1">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="assets/images/projects/messaging.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Messaging Applications</h3>
+                                <a class="btn" href="assets/images/projects/messaging.jpg">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2">
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="assets/images/projects/productivity.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Productivity Tools</h3>
+                                <a class="btn" href="assets/images/projects/productivity.jpg">+</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-3" >
+                        <div class="portfolio-wrap">
+                            <div class="portfolio-img">
+                                <img src="assets/images/projects/streaming.jpg" alt="Image">
+                            </div>
+                            <div class="portfolio-text">
+                                <h3>Company Website</h3>
+                                <a class="btn" href="assets/images/projects/streaming.jpg">+</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
+        <!-- Portfolio End -->
         <!-- Call in Actions Section -->
         <section class="dropMessage">
             <div class="dropMessage-body container text-center">
@@ -368,5 +460,7 @@
 
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
   </body>
 </html>
