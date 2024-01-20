@@ -124,7 +124,8 @@ header .hero-profile .hero-info .hero-buttons a{
     padding: 5px 25px;
     font-size: 1vw;
     font-weight: 500;
-    color: var(--primary);
+    color: var(--background-color);
+    background-color: var(--primary);
     border: 2px solid var(--primary);
     cursor: pointer;
     -webkit-transition: all 0.5 ease;
@@ -146,8 +147,8 @@ header .hero-profile .hero-info .hero-buttons a{
     margin: 10px;
 }
 li.active{
-    background: var(--primary);
-    color: #FFFFFF !important;
+    background: var(--background-color) !important;
+    color: var(--primary) !important;
 }
 
 
