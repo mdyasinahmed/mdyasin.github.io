@@ -115,15 +115,15 @@ header .hero-profile .hero-info .hero-buttons a{
 /* Projects Area */
 .portfolio-menu{
     text-align: center;
-    margin-top: 25px;
+    margin-top: 20px;
 }
 .portfolio-menu ul li{
     display: inline-block;
-    margin: 0 5px;
+    margin: 10px 10px;
     list-style: none;
     padding: 5px 25px;
-    font-size: 1vw;
-    font-weight: 500;
+    font-size: 16px;
+    font-weight: 400;
     color: var(--background-color);
     background-color: var(--primary);
     border: 2px solid var(--primary);
@@ -135,8 +135,8 @@ header .hero-profile .hero-info .hero-buttons a{
     transition: all 0.5 ease;
 }
 .portfolio-menu ul li:hover{
-    background: var(--primary);
-    color: #FFFFFF;
+    background: var(--background-color);
+    color: var(--primary);
 }
 .portfolio-item{
     width: 100%;
@@ -156,6 +156,9 @@ li.active{
     position: relative;
     margin: 20px 0;
     padding: 5px 0;
+}
+.project-title-img {
+    
 }
 .project-title{
     position: absolute;
