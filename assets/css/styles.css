@@ -112,60 +112,43 @@ header .hero-profile .hero-info .hero-buttons a{
     margin: 5px;
 }
 
-/* Project section */
-.project-single{
-    position: relative;
-    width: 100%;
-    height: 20rem;
-    margin: 10px 0;
+/* Projects Area */
+.portfolio-menu{
+    text-align: center;
+    margin-top: 25px;
 }
-.project-single .project-single-app-image {
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/projects/title-image/app-bg.jpg);
-    background-position: center;
-    background-size: cover;
-
-
+.portfolio-menu ul li{
+    display: inline-block;
+    margin: 0;
+    list-style: none;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--primary);
+    border: 2px solid var(--primary);
+    border-radius: 50px;
+    cursor: pointer;
+    -webkit-transition: all 0.5 ease;
+    -moz-transition: all 0.5 ease;
+    -ms-transition: all 0.5 ease;
+    -o-transition: all 0.5 ease;
+    transition: all 0.5 ease;
 }
-.project-single .project-single-weba-image {
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/projects/title-image/webapp-bg.jpg);
-    background-position: center;
-    background-size: cover;
-
-
-}
-.project-single .project-single-webs-image {
-    height: 100%;
-    width: 100%;
-    background-image: url(../images/projects/title-image/website-bg.jpg);
-    background-position: center;
-    background-size: cover;
-
-
-}
-.project-single-texts {
-    padding: 5px;
-    background-color: #000000ab;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
+.portfolio-menu ul li:hover{
+    background: var(--primary);
     color: #FFFFFF;
 }
-.project-single-texts .skills-icons img{
-    height: 150px;
-    padding: 10px;
+.portfolio-item{
+    width: 100%;
 }
-.project-single-texts .skills-info {
-    margin-top: 20px;
+.portfolio-item .item{
+    width: 200px;
+    float: left;
+    margin: 10px;
 }
-
-.project-single-texts h5 a {
-    text-align: left !important;
+li.active{
+    background: var(--primary);
+    color: #FFFFFF !important;
 }
 
 /* Drop Message Area */
